@@ -20,10 +20,10 @@ namespace ConsoleApp1
             Console.WriteLine("Умножение: " + (a * b));
             Console.WriteLine("Деление: " + (a / b));
             Console.WriteLine("Остаток от деления: " + (a % b));
-            Console.WriteLine("Инкремент a: " + (a + 1));
-            Console.WriteLine("Инкремент b: " + (b + 1));
-            Console.WriteLine("Декремент a: " + (a - 1));
-            Console.WriteLine("Декремент b: " + (b - 1));
+            Console.WriteLine("Инкремент a: " + (a ++ ));
+            Console.WriteLine("Инкремент b: " + (b ++ ));
+            Console.WriteLine("Декремент a: " + (a -- ));
+            Console.WriteLine("Декремент b: " + (b -- ));
             Console.WriteLine("Логическое умножение: " + (a & b));
             Console.WriteLine("Логическое сложение: " + (a | b));
             Console.WriteLine("Инвертация всех разрядов: " + (~a));
